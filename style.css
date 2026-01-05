@@ -1,3 +1,5 @@
+##This code shows all the designing of font and setting of tables and forms in the website.
+
 /* ============ FONT ============ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
@@ -325,4 +327,5 @@ footer {
         width: 90%;
     }
 }
+
 
