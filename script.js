@@ -32,8 +32,9 @@ document.getElementById("searchInput").addEventListener("input", e => {
 
 themeToggle.onclick = () => {
     document.body.classList.toggle("dark");
-    themeToggle.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+    themeToggle.textContent = document.body.classList.contains.("dark") ? "☀️" : "🌙";
 };
 
 showDestinations(destinations);
+
 
