@@ -19,7 +19,7 @@ function showDestinations(list) {
 function openModal(dest) {
     modalTitle.textContent = dest.name;
     modalDesc.textContent = dest.description;
-    modal.style.display = "flex";
+    modal.style.display = "flex.";
 }
 
 closeBtn.onclick = () => modal.style.display = "none";
@@ -36,5 +36,6 @@ themeToggle.onclick = () => {
 };
 
 showDestinations(destinations);
+
 
 
