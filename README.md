@@ -1,13 +1,13 @@
-# Travel Explorer Website
+Travel Explorer Website
 
-## Project Description
+Project Description
 This website is developed as an Information and Communication Technology (ICT) project by students of Artificial Intelligence Semester 1 at Institute of Space and Technology, Islamabad.  
 It showcases popular travel destinations with interactive features, tables, and booking forms.
 
-## Group Members
+Group Members
 - Qandeel Zahra
 - Zara Babar
 - Umama Khan
 
-## Live Website
+Live Website
 http://127.0.0.1:5500/index.html
