@@ -12,7 +12,7 @@ const destinations = [
     {
         name: "Bali, Indonesia",
         image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-        description: "Bali is famous for beaches, forests, and peaceful resorts."
+        description: "Bali is famous for beaches, forests, and for it's peaceful resorts."
     },
     {
         name: "New York, USA",
@@ -20,3 +20,4 @@ const destinations = [
         description: "New York is known for skyscrapers and city life."
     }
 ];
+
