@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Explore - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <nav>
+        <h1>✈ Travel Explore</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html">Packages</a></li>
+            <li><a href="form.html">Booking</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌙</button>
+    </nav>
+
+    <div class="hero-content">
+        <h2>Explore The World With Us</h2>
+        <p>Discover beautiful destinations and plan your journey</p>
+        <input type="text" id="searchInput" placeholder="Search destinations...">
+    </div>
+</header>
+
+<main class="container">
+    <section class="intro">
+        <h2>Introduction</h2>
+        <p>
+            This website is developed by students of Artificial Intelligence Semester 1
+            at the Institute of Space and Technology, Islamabad, as part of the
+            Information and Communication Technology (ICT) project. The purpose of this
+            website is to showcase popular travel destinations and allow users to
+            explore travel information through a simple, interactive, and user-friendly design.
+        </p>
+    </section>
+
+    <h2 class="section-title">Popular Destinations</h2>
+    <div id="destinationsGrid" class="grid"></div>
+</main>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-box">
+        <span class="close">&times;</span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <a href="form.html"><button class="book-btn">Book Now</button></a>
+    </div>
+</div>
+
+<footer>
+    <p><strong>ICT Project – Artificial Intelligence (Sem 1)</strong></p>
+    <p><strong>Group Members:</strong> Qandeel Zahra | Zara Babar | Umama Khan</p>
+    <p>Institute of Space and Technology, Islamabad</p>
+    <p>© 2026 Travel Explore</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

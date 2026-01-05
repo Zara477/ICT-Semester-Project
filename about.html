@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Explore - About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <nav>
+        <h1>✈ Travel Explore</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html">Packages</a></li>
+            <li><a href="form.html">Booking</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌙</button>
+    </nav>
+</header>
+
+<main class="container">
+    <h2 class="section-title">About This Project</h2>
+
+    <section class="intro">
+        <p>
+            This website was created as part of the Information and Communication Technology (ICT) project
+            for students of Artificial Intelligence Semester 1 at the Institute of Space and Technology, Islamabad.
+            The goal of this project is to provide an interactive platform to explore popular travel destinations,
+            view travel packages, and make bookings easily.
+        </p>
+    </section>
+
+    <h2 class="section-title">Group Members</h2>
+    <section class="intro">
+        <ul>
+            <li>Qandeel Zahra</li>
+            <li>Zara Babar</li>
+            <li>Umama Khan</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p><strong>ICT Project – Artificial Intelligence (Sem 1)</strong></p>
+    <p><strong>Group Members:</strong> Qandeel Zahra | Zara Babar | Umama Khan</p>
+    <p>Institute of Space and Technology, Islamabad</p>
+    <p>© 2026 Travel Explore</p>
+</footer>
+
+<script>
+const themeToggle = document.getElementById("themeToggle");
+themeToggle.onclick = () => {
+    document.body.classList.toggle("dark");
+    themeToggle.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+};
+</script>
