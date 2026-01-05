@@ -36,3 +36,4 @@ themeToggle.onclick = () => {
 };
 
 showDestinations(destinations);
+
