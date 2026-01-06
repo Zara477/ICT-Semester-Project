@@ -5,7 +5,7 @@
 
 /* ============ ROOT VARIABLES ============ */
 :root {
-    --bg: #ffffff;
+    --bg: red;
     --text: #222222;
     --card: #f9f9f9;
     --primary: #0078ff;
@@ -327,5 +327,6 @@ footer {
         width: 90%;
     }
 }
+
 
 
